@@ -38,9 +38,7 @@
 IEF has two versions for you to use:
 
   * **Common JS:**
-    Add the `lib/` folder and the `package.json` file to your directory, and inside `lib/` include the file `ief.cjs`.
-    Then, create a file where you will use the engine.
-
+    IEF supports both CommonJS and ES Modules. First, add the lib/ folder to your project.
     Example:
     
     `[hello\_world.js]`
@@ -74,15 +72,15 @@ IEF has two versions for you to use:
 -----
 
   * **ES Modules:**
-    Add the `lib/` folder and the `package.json` file to your directory, and inside `lib/` include the file `ief.mjs`.
-    Then, create a file where you will use the engine.
+    First, add the lib/ folder to your project.
+    To use ES Modules, ensure your package.json file contains the line: "type": "module".
 
     Exemple:
     
     `hello_world.js`
     
     ```javascript
-    import { start, set, rotate3D } from './lib/ief.mjs';
+    import { start, set, rotate3D, fill } from './lib/ief.mjs';
 
     // Cube variables
     let cube;
@@ -92,7 +90,7 @@ IEF has two versions for you to use:
     // Create scene elements
     cube = set('3d', 'cube', 'myCube'); // Your scene node (2D or 3D), your object type, your object ID
     cube.color = 'bright_yellow'; // Change the cube color
-    IEF.fill(cube);
+    fill(cube);
 
     // Animation Function
     function animate() {
