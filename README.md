@@ -1,29 +1,33 @@
-# Iot Enine - General-purpose terminal graphics engine in JavaScript
+# Iot Engine - General-purpose terminal graphics engine in JavaScript
 
-- _!Beta! Version: 0.0.15_
+  - *\!Beta\! Version: 0.0.15*
 
-- _Language: Portuguese_
+  - *Language: English*
 
-<hr>
+-----
 
-## O que é a IEF?
-> A IEF 0.0.15 (Iot Engine Fast) é uma engine gráfica de código aberto para terminal, construída em NodeJS. Ela foi projetada para ser rápida e fácil de usar, permitindo a criação de cenas 2D e 3D complexas diretamente no seu terminal, além de juntar performance com eficiência, garantindo qualidade para suas cenas. <br>
-Seu diferencial está na sua performance, otimização e praticidade, facilitando a exibição de gráficos no terminal.
+## What is IEF?
 
-## O que a IEF entrega para mim?
-> O objetivo da IEF é facilitar a exibição de gráficos no terminal, com alta performance e eficiência. Seu diferencial é a alta performance e eficiência. A IEF mira em ser uma engine gráfica simples de usar, consistente e eficiente.
+> **IEF 0.0.15 (Iot Engine Fast)** is an **open-source** terminal graphics engine built in **NodeJS**. It was designed to be **fast and easy to use**, allowing the creation of complex **2D and 3D scenes** directly in your terminal, while combining **performance with efficiency**, ensuring quality for your scenes. <br>
+> Its differential lies in its **performance, optimization, and practicality**, making it easier to display graphics in the terminal.
 
-## Para quem a IEF foi feita?
-> A IEF é uma engine feita para todos, desde um desenvolvedor experiente que deseja criar um jogo usando o terminal, até para um iniciante que quer começar a criar jogos. Ou até para quem deseja criar simulações, visualizações matemáticas, etc. <br>
-Nossa meta para a IEF é constantemente melhorar a experiência e qualidade da nossa engine para nossos usuários em todos os aspectos. 
+## What does IEF deliver to me?
+
+> IEF's objective is to **facilitate the display of graphics in the terminal**, with **high performance and efficiency**. Its differential is high performance and efficiency. IEF aims to be a **simple-to-use, consistent, and efficient** graphics engine.
+
+## Who is IEF for?
+
+> IEF is an engine made **for everyone**, from an experienced developer who wants to create a game using the terminal, to a beginner who wants to start creating games. Or even for those who want to create **simulations, mathematical visualizations**, etc. <br>
+> Our goal for IEF is to constantly **improve the experience and quality** of our engine for our users in all aspects.
 
 <br>
-<hr>
+---
 
-## O que a IEF tem a oferecer?
-- Renderização de cenas em 3D e 2D: Crie cenas em 2D ou 3D sem esforço e com igual desempenho em ambos.
-- Código aberto: Qualquer um pode acessar o código e utilizar
-- Alta performance: Crie cenas complexas, com inúmeros elementos e com alta qualidade tranquilamente, sem travamentos ou cintilação na tela.
-- Renderização com Cores: dê vida as suas cenas dando cores a ela no terminal.
-- API amigável: manipule fácilmente qualquer elemento na sua cena sem complicação e com uma sintaxe clara, usando funções como `translate2D()` e `rotate3D()`.
-- Zero dependências:  Puro NodeJS, o que a torna leve e fácil de integrar em qualquer projeto.
+## What does IEF have to offer?
+
+  - **3D and 2D Scene Rendering:** Create 2D or 3D scenes effortlessly and with equal performance in both.
+  - **Open Source:** Anyone can access and use the code.
+  - **High Performance:** Create complex scenes with countless elements and high quality smoothly, without lag or screen flickering.
+  - **Rendering with Colors:** Bring your scenes to life by adding color to them in the terminal.
+  - **Friendly API:** Easily manipulate any element in your scene without complication and with a clear syntax, using functions like `translate2D()` and `rotate3D()`.
+  - **Zero Dependencies:** Pure NodeJS, which makes it light and easy to integrate into any project.
