@@ -1,4 +1,4 @@
-const IEF = require('./ief.cjs');
+const IEF = require('./lib/ief.cjs');
 
 // Cube variables
 let cube;
