@@ -1,0 +1,33 @@
+{
+  "name": "Iot-Engine-Fast",
+  "version": "0.0.15",
+  "description": "General-purpose terminal graphics engine in NodeJS/JavaScript",
+  "author": "Immanuel Bokkey",
+  "license": "Apache License Version 2.0",
+  "type": "module",
+  "main": "./lib/ief.cjs",
+  "module": "./lib/ief.mjs",
+  "exports": {
+    ".": {
+      "import": "./lib/ief.mjs",
+      "require": "./lib/ief.js"
+    }
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "terminal",
+    "console",
+    "graphics",
+    "tui",
+    "cli",
+    "2d",
+    "3d",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-Emannuel-p/ief.git"
+  }
+}
