@@ -21,7 +21,8 @@
 > Our goal for IEF is to constantly **improve the experience and quality** of our engine for our users in all aspects.
 
 <br>
----
+
+-----
 
 ## What does IEF have to offer?
 
@@ -31,3 +32,12 @@
   - **Rendering with Colors:** Bring your scenes to life by adding color to them in the terminal.
   - **Friendly API:** Easily manipulate any element in your scene without complication and with a clear syntax, using functions like `translate2D()` and `rotate3D()`.
   - **Zero Dependencies:** Pure NodeJS, which makes it light and easy to integrate into any project.
+
+## How to use IEF?
+-- coming soon --
+
+-----
+
+## Beta Version Considerations
+
+Please note that IEF is under active development (beta version). Although the listed features are functional, the API may change in future releases, and bugs may be present. Community feedback and contributions are highly welcome to help stabilize and improve the project.
