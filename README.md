@@ -34,7 +34,75 @@
   - **Zero Dependencies:** Pure NodeJS, which makes it light and easy to integrate into any project.
 
 ## How to use IEF?
--- coming soon --
+
+IEF has two versions for you to use:
+
+  * **Common JS:**
+    Add the `lib/` folder and the `package.json` file to your directory, and inside `lib/` include the file `ief.cjs`.
+    Then, create a file where you will use the engine.
+
+    Example:
+    
+    `[hello\_world.js]`
+
+    ```javascript
+    const IEF = require('./lib/ief.cjs');
+
+    // Cube variables
+    let cube;
+    let angleX = 0;
+    let angleY = 0;
+
+    // Create scene elements
+    cube = IEF.set('3d', 'cube', 'myCube'); // Your scene node (2D or 3D), your object type, your object ID
+    cube.color = 'bright_green'; // Change the cube color
+    IEF.fill(cube);
+
+    // Animation Function
+    function animate() {
+        angleX++;
+        angleY += 2;
+
+        // Use engine functions to manipulate the object
+        IEF.rotate3D(cube, angleX, angleY, 0);
+    }
+
+    // Start the engine, passing your animation function as a callback
+    IEF.start(animate);
+    ```
+
+-----
+
+  * **ES Modules:**
+    Add the `lib/` folder and the `package.json` file to your directory, and inside `lib/` include the file `ief.mjs`.
+    Then, create a file where you will use the engine.
+
+    Exemple:
+    
+    `hello_world.js`
+    
+    ```javascript
+    import { start, set, rotate3D } from './lib/ief.mjs';
+
+    // Cube variables
+    let cube;
+    let angleX = 0;
+    let angleY = 0;
+
+    // Create scene elements
+    cube = set('3d', 'cube', 'myCube'); // Your scene node (2D or 3D), your object type, your object ID
+    cube.color = 'bright_yellow'; // Change the cube color
+    IEF.fill(cube);
+
+    // Animation Function
+    function animate() {
+        angleX++; // Spins the cube
+        angleY++;
+        rotate3D(cube, angleX, angleY, 0); // X, Y, Z
+    }
+
+    start(animate);
+    ```
 
 -----
 
